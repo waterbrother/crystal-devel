@@ -5,7 +5,7 @@ class Hello
 	def initialize(@time : String)
 	end
 
-	ECR.def_to_s "time.ecr"
+	ECR.def_to_s "include/main.ecr"
 end
 
 tn = Time.now.to_s
