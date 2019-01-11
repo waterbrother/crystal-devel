@@ -1,0 +1,17 @@
+name: kemal-app
+version: 0.1.0
+
+authors:
+  - Rutledge, Julian A. <julian@julianrutledge.com>
+
+targets:
+  kemal-app:
+    main: src/kemal-app.cr
+
+dependencies:
+  kemal:
+    github: kemalcr/kemal
+
+crystal: 0.27.0
+
+license: MIT
